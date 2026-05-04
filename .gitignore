@@ -1,0 +1,36 @@
+# Ignore Visual Studio files
+.vs/
+bin/
+obj/
+
+# User-specific
+*.user
+*.suo
+*.rsuser
+
+# Build results
+Debug/
+Release/
+
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets & backups
+*.bak
+*.json
+.env
+
+
+*.nupkg
+packages/
+*.bak
+*.json
+bin/
+obj/

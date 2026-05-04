@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b9c2195bcb5741dd9f1fe60e77c720c5" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="MultiStoreModel.Carousel" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Category" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.CategoryImage" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Comment" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Location" Width="1.5" PointX="8.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Price" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Product" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.SecurityAnswer" Width="1.5" PointX="8.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.SecurityQuestion" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.StoreImage" Width="1.5" PointX="8.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Store" Width="1.5" PointX="6" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.User" Width="1.5" PointX="6" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MultiStoreModel.Wishlist" Width="1.5" PointX="8.25" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="MultiStoreModel.FK__CategoryI__categ__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Products__catego__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Comments__produc__3D2915A8" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Comments__user_i__3C34F16F" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK_Location_Stores" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Prices__product___0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Prices__store_id__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Wishlists__produ__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__SecurityA__quest__55009F39" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__SecurityA__user___540C7B00" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__StoreImag__store__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="MultiStoreModel.FK__Wishlists__user___46E78A0C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
